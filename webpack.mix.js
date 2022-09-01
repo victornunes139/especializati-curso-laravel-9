@@ -11,6 +11,10 @@ const mix = require('laravel-mix');
  |
  */
 
+
+ //Ferramento do laravel que te permite controlar o frontend, ou seja, eu posso compilar meus arquivos javascript
+ //dentro do proprio laravel
+
 mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         //
